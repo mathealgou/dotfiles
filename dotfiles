@@ -1,0 +1,8 @@
+.bash_profile
+.bashrc
+.fonts.conf
+.gitconfig
+.nanorc
+.local/share/konsole/profile.profile
+.config/konsolerc
+dotfiles
