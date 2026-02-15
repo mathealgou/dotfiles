@@ -2,7 +2,7 @@
 .bashrc
 .fonts.conf
 .gitconfig
-.nanorc
+*.nanorc
 .local/share/konsole/profile.profile
 .config/konsolerc
 .local/share/konsole/Breeze.colorscheme

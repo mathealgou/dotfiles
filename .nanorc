@@ -1,4 +1,4 @@
-'# show line numbers
+# show line numbers
 set linenumbers
 
 # automatic indentation
@@ -18,4 +18,5 @@ bind ^v paste main
 bind ^z undo main
 bind ^/ comment main
 
-# comment
+# include modes
+include "~/.nano/*.nanorc"
