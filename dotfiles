@@ -5,4 +5,5 @@
 .nanorc
 .local/share/konsole/profile.profile
 .config/konsolerc
+.local/share/konsole/Breeze.colorscheme
 dotfiles
