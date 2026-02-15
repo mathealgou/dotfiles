@@ -1,0 +1,21 @@
+'# show line numbers
+set linenumbers
+
+# automatic indentation
+set autoindent
+
+# break long lines
+set breaklonglines
+
+# show cursor position in status bar
+set constantshow
+
+# shortcuts
+
+bind ^c copy main
+bind ^x cut main
+bind ^v paste main
+bind ^z undo main
+bind ^/ comment main
+
+# comment
