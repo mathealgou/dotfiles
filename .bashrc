@@ -24,4 +24,19 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-alias ls="ls -la" 
+# always list all
+alias ls="ls -la"
+
+# create and open
+_touch() {
+	touch "$1" && nano "$1"
+}
+
+alias touch="_touch"
+
+# obliterate
+_obliterate() {
+	rm -r -f -i "$@"
+}
+
+alias obliterate="_obliterate"
