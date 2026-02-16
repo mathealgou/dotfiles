@@ -10,8 +10,25 @@ set breaklonglines
 # show cursor position in status bar
 set constantshow
 
-# shortcuts
+# scrollbar
+set indicator
 
+# mouse support yay
+set mouse
+
+# no help bar at the bottom
+set nohelp
+
+# Display lines that exceed the screen’s width over multiple screen lines. (You can make this soft-wrapping occur at whitespace instead of 
+# rudely at the screen’s edge, by using also set atblanks.)
+set softwrap
+
+# Let an unmodified Backspace or Delete erase the marked region (instead of a single character, and without affecting the cutbuffer).
+set zap
+
+
+
+# shortcuts
 bind ^c copy main
 bind ^x cut main
 bind ^v paste main

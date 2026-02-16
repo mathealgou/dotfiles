@@ -4,8 +4,12 @@ DefaultProfile=profile.profile
 [General]
 ConfigVersion=1
 
+[MainWindow]
+MenuBar=Enabled
+
 [Notification Messages]
 CloseAllEmptyTabs=true
+CloseAllTabs=true
 CloseSingleTab=true
 
 [UiSettings]
