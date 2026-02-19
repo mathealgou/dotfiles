@@ -5,12 +5,16 @@ DefaultProfile=profile.profile
 ConfigVersion=1
 
 [MainWindow]
-MenuBar=Enabled
+MenuBar=Disabled
 
 [Notification Messages]
 CloseAllEmptyTabs=true
 CloseAllTabs=true
 CloseSingleTab=true
 
+[TabBar]
+SearchTabsButton=HideSearchTabsButton
+TabBarVisibility=AlwaysShowTabBar
+
 [UiSettings]
-ColorScheme=
+ColorScheme=Breeze.colorscheme
